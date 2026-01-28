@@ -6,33 +6,33 @@ The goal is not just accuracy, but minimizing business loss caused by false nega
 
 🎯 Business Objective
 
-Identify customers likely to churn
+  Identify customers likely to churn
 
-Reduce revenue loss by prioritizing recall of churners
+  Reduce revenue loss by prioritizing recall of churners
 
-Compare baseline and advanced ML models under cost constraints
+  Compare baseline and advanced ML models under cost constraints
 
 🧠 Machine Learning Approach
 
-Models implemented:
+  Models implemented:
 
-Logistic Regression (baseline)
+  Logistic Regression (baseline)
 
-Random Forest
+  Random Forest
 
-XGBoost (tuned)
+  XGBoost (tuned)
 
-Key techniques used:
+  Key techniques used:
 
-Feature encoding & scaling
+  Feature encoding & scaling
 
-Class imbalance handling
+  Class imbalance handling
 
-Cost-sensitive evaluation
+  Cost-sensitive evaluation
 
-Threshold tuning
+  Threshold tuning
 
-ROC-AUC & Precision-Recall analysis
+  ROC-AUC & Precision-Recall analysis
 
 📊 Dataset
 
@@ -92,9 +92,8 @@ cd customer-churn-prediction-cost-sensitive-ml
 pip install -r requirements.txt
 3️⃣ Run the notebook
 
-Open:
+Open: notebooks/Customer_Churn_Analysis.ipynb
 
-notebooks/Customer_Churn_Analysis.ipynb
 📌 Skills Demonstrated
 
 Machine Learning modeling
